@@ -35,6 +35,10 @@ while (i < 10){
 for(let todo of todos){
     console.log(todo.text);
 }
+//for ...each
+todos.forEach(function(todo){
+    console.log(todo.text);
+})
 const todoJSON = JSON.stringify(todos);
 console.log(todoJSON);
 console.log(todos[1].text);
